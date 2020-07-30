@@ -1,37 +1,54 @@
-
 <!DOCTYPE html>
-<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html class="no-js" lang="en" >
+<!-- saved from url=(0110)file:///Users/alejandrozunino/Desktop/cerveceria/web/boostrap/startbootstrap-scrolling-nav-gh-pages/index.html -->
+<html lang="en"><!-- 
+https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp
+   xs (phones), sm (tablets), md (desktops)
+    <div class="col-xs-12 col-md-7">hola</div>
 
-  <head>
-    <meta charset="utf-8">
-    <!-- If you delete this meta tag World War Z will become a reality -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation 5</title>
 
-    <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css">
+   
+<div class="col-sm-4 text-center">
+     --><!-- .row>.small-6.large-4.columns*3>p>lorem12 --><!-- comand D varias veces para seleccionar una palabra y repetir el cursor --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'>
-      <!-- optional CDN for Foundation Icons ^^ -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 <style>
-   body {background: #292c30;}
-   @font-face {
-  font-family: 'Unica One';
-  src: url('img/UnicaOne-Regular.ttf');
-}
 
-.separador {
-    border-color: #ae895d;
-    border-top-width: 1px;
-    flex-grow: 2;
-    border: 0 solid #e7e6e6;
+   .fondo {
+    color: #292c30;
+    background-image: url('img/hamburguesa.jpg';); 
+background-position: left top; 
+background-repeat: no-repeat; 
+background-size: cover; padding: 0px; 
+min-height: 0px;  
+  }
+  .fdo{background: #3d4042;}
+ 
+
+@font-face {
+ font-family: 'Unica One';
+ src: url("img/UnicaOne-Regular.eot") /* EOT file for IE */
+}   
+ 
+@font-face {
+ font-family: 'Unica One';
+ src: url("img/UnicaOne-Regular.ttf") /* TTF file for CSS3 browsers */
+} 
+
+ 
+body {
+    margin: 0;
+    font-family: "unica one",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    font-size: 1.5rem !important;
+    font-weight: 300;
+    line-height: 2 !important; 
 }
- h1 {
+ .h1, h1 {
     font-family: "Unica One", Arial, Helvetica, sans-serif;
-    color:#fff;
-    font-size: 60px;
+    color: #fff !important;
+    font-size: 60px !important;
     font-weight: 400;
     line-height: 1.07;
     letter-spacing: 0px;
@@ -44,18 +61,14 @@
     letter-spacing: 0px;
     font-style: normal;
 
-        margin: 0px;
-    font-size: 1em;
-    color: rgb(174, 137, 93);
-    --fontSize: 18;
-    line-height: 1.07;
-    --minFontSize: 18;
+        margin: 0px; 
+    color: rgb(210 209 191);
   }
-h3 {
-      font-family: "Unica One", Arial, Helvetica, sans-serif;
-      color: #fff;
-      font-size: 36px;
-    font-weight: 400;
+  h3 {
+      font-family:  Arial, Helvetica, sans-serif;
+      color: rgb(174, 137, 93); 
+      font-size: 22px !important;
+    font-weight: 200;
     line-height: 1.33;
     letter-spacing: 0px;
     font-style: normal;
@@ -66,242 +79,632 @@ h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
      }
+.bd-highlight{
+        
+        min-height: 500px;
+    }
+.box{
+        padding: 25px;
+        background: #abb1b8;
+    }
+
+ .separa {
+    border-top-width: 1px !important;
+    flex-grow: 2;
+    border: 0 solid #ae895d; 
+    width: 399px;
+    height: 23px; 
+}
+ .aire {
+    height: 35px; 
+}
+
+.bandera {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 80px; /* Set a small width */
+  margin-top: -100px !important;
+}
+
+/* Add a hover effect (blue shadow) */
+.bandera:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  margin-top: -90px !important;
+
+}
+
 </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <title>Cervecería Pucará</title>
 
-  </head>
-  <body>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-   <div class="row">
-      <div class="large-12 columns" style="background: #313539;">
-         <!-- fondo -->
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
 
-    <div class="row">
-      <div class="large-12 columns">
-        <!-- Navigation -->
+</head>
 
-        <nav class="top-bar" data-topbar>
-          <ul class="title-area">
-            <!-- Title Area -->
+<body id="page-top">
 
-            <li class="name">
-              <h1><a href="#">Pucará</a></h1>
-            </li>
 
-            <li class="toggle-topbar menu-icon">
-              <a href="#"><span>menu</span></a>
-            </li>
-          </ul>
 
-          <section class="top-bar-section">
-            <ul class="left">
-              <li>
-                <a href="#">Link 1</a>
-              </li>
 
-              <li>
-                <a href="#">Link 2</a>
-              </li>
-            </ul>
-
-             
-          </section>
-        </nav><!-- End Navigation -->
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">PUCARÁ CERVECERÍA ARTESANAL</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#comida">Para comer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger active" href="#cervezas">Bebidas</a>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
+ 
 
-    <div class="row">
-      <div class="large-12 columns">
-        <!-- Desktop Slider -->
-
-        <div class="hide-for-small">
-          <div id="featured"><img alt="slide image" src="https://placehold.it/1000x400&amp;text=Slide%20Image"></div>
-        </div><!-- End Desktop Slider -->
-        <!-- Mobile Header -->
-
-        <div class="row">
-          <div class="small-12 show-for-small"><br>
-          <img src="https://placehold.it/1000x600&amp;text=For%20Small%20Screens"></div>
-        </div><!-- End Mobile Header -->
-      </div>
-    </div><br>
-
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="row">
-          <!-- Thumbnails -->
-
-          <div class="large-6 small-12 columns">
-            <img src="https://placehold.it/250x250&amp;text=Thumbnail">
-            <h2 class="">Description</h2>
-            <h6 class="panel">Description</h6>
+  <!-- Imagen de fondo comida -->
+    <div class="view  text-center" style="background-image: url('img/hamburguesa.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; height: 500px">
+          <div class="d-flex align-items-center bd-highlight ">
+             <div style="width: 100%;"><img alt="slide image" src="img/logo.png"></div>
           </div>
+    </div> 
+ 
 
-          <div class="large-6 small-12 columns">
-            <img src="https://placehold.it/250x250&amp;text=Thumbnail">
 
-            <h6 class="panel">Description</h6>
-          </div>
 
-        </div>
+<section style="background: #323639" id="comida">
+
+<div class="row  "> 
+ <div class="col-xs-6 col-md-6 col-6 text-center"> 
+      <img class="bandera" style="opacity: 0.4;" src="img/espa.gif" alt="Forest">
+ </div>
+ <div class="col-xs-6 col-md-6 col-6 text-center"> 
+    <a href="pucara_en.html">
+      <img class="bandera" src="img/eng.gif" alt="Forest">
+    </a>
+ </div>
+</div> 
+<div class="aire"></div>
+
+<div class="container">  
+
+      <div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Para Picar </h1>  
+
+         </div>
+      </div> 
+
+
+ <div class="row">
+      <div class="col-8">
+           
+           <h2>Brocheta de Cordero</h2>
+           <h3>Colchón de rúcula y salsa criolla con romero</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
       </div>
-    </div>
+      <div class="col-11  separa"></div>
+ </div>
 
-
-
-<div class="row twelve columns">
-  <div class="two columns" style="position:fixed;top:0;bottom:0;overflow-x:hidden;overflow-y:auto; background: red; width: 400px;height: 300px; z-index: -1;">
-    Menu
-    <ul><li>Menu Item</li></ul>
-  </div>
-  <div class="ten columns offset-by-two">
-    Content goes here
-  </div>
-</div>
-
-<div class="" style="background-image: url(img/hamburguesa.jpg;); 
-background-position: left top; 
-background-repeat: no-repeat; 
-background-size: cover; padding: 0px; 
-min-height: 0px; 
-height: 300px;
-width: 100%;
-" 
-data-bg-url="img/hamburguesa.jpg">
-</div>
-  <div class="" style="width:calc( 100% + 0px ) !important;max-width:calc( 100% + 0px ) !important;margin-left: calc(-0px / 2 );margin-right: calc(-0px / 2 );">
-    
-  
-  </div>
-
-   
+ <div class="row">
+      <div class="col-8">
+           <h2>Buñuelos de espinaca y nuez</h2>
+           <h3>Con salsa de alioli de azafrán</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
 
 <div class="row">
-      <div class="large-12 columns">
-        <div class="row">
-          <!-- Thumbnails -->
-
-          <div class="large-3 small-6 columns">
-            <img src="https://placehold.it/250x250&amp;text=Thumbnail">
-
-            <h6 class="panel">Description</h6>
-            
-            <h1>PARA COMER</h1>
-            <div class="separador" style="border-color:#ae895d;border-top-width:1px;"></div>
-            <h3 class="title-heading-left fusion-responsive-typography-calculated" style="margin: 0px; line-height: 1.2; --fontSize:36;" data-fontsize="36" data-lineheight="43.2px">ENGLISH-ASPARAGUS $14.95</h3>
-            <h2>ASPARAGUS, HENS EGG, TOASTED SUNFLOWERS, SPENWOOD CHEESE</h2>
-          </div>
-
-          <div class="large-3 small-6 columns">
-            <img src="https://placehold.it/250x250&amp;text=Thumbnail">
-
-            <h6 class="panel">Description</h6>
-          </div>
-
-          <div class="large-3 small-6 columns">
-            <img src="https://placehold.it/250x250&amp;text=Thumbnail">
-
-            <h6 class="panel">Description</h6>
-          </div>
-
-          <div class="large-3 small-6 columns">
-            <img src="https://placehold.it/250x250&amp;text=Thumbnail">
-
-            <h6 class="panel">Description</h6>
-          </div><!-- End Thumbnails -->
-        </div>
+      <div class="col-8">
+           <h2>Brocheta de pollo</h2>
+           <h3>Con tomate, cebolla, bacon y pimiento al grill</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
       </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+<div class="row">
+      <div class="col-8">
+           <h2>Empanadita casera de ternera</h2>
+           <h3>Con un dip picante</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+<div class="row">
+      <div class="col-8">
+           <h2>Pulpo grille</h2>
+           <h3>Con patatas</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+<div class="row">
+      <div class="col-8">
+           <h2>Mini Pizza Parrilla</h2>
+           <h3>Margarita, serrano con rúcula</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+
+<div class="aire"></div>
+
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Raciones</h1> 
+         </div>
+</div> 
+
+ <div class="row">
+      <div class="col-8">
+           
+           <h2>Patatas fritas</h2> 
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+<div class="row">
+      <div class="col-8">
+           
+           <h2>Patatas PUCARA</h2>
+           <h3>Salsa 4 quesos cebolla tierna y bacon</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+ <div class="row">
+      <div class="col-8">
+           
+           <h2>Papas pulled pork</h2>
+           <h3>Fritas con desmenuzado de cerdo cocido con cerveza</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+<div class="row">
+      <div class="col-8">
+           
+           <h2>Nachos carnita</h2>
+           <h3>Enchilada de ternera, guacamole, pico de gallo crema ácida, cheddar, muzzarella, cilantro</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+<div class="row">
+      <div class="col-8">
+           
+           <h2>Tiras de pollo rebozadas en cereal</h2>
+           <h3>Pollo marinado rebozado en cereales y dip alioli</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+
+
+<div class="aire"></div>
+
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Bocadillos</h1> 
+         </div>
+</div> 
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Bondiola (Pan de pita)</h2>
+           <h3>Verduras asadas y curry casero</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Vacío cervecero (Pan llonguet)</h2>
+           <h3>(larga cocción) chimi, rúcula, tomate confitado y alioli</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+
+
+<div class="aire"></div>
+
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Principal</h1> 
+         </div>
+</div> 
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Bondiola braseada</h2>
+           <h3>Medallón de cerdo, papas cuña y salsa criolla</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Salchichas</h2>
+           <h3>Con Chucrut y ensalada Alemana</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+  <div class="row">
+      <div class="col-8">
+           <h2>Mollejas</h2>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+
+<div class="aire"></div>
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Hamburguesas</h1> 
+         </div>
+</div> 
+
+  <div class="row">
+      <div class="col-8">
+           <h2>Clásica</h2>
+           <h3>Verde, tomate, cebolla caramelizada y cheddar</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+  <div class="row">
+      <div class="col-8">
+           <h2>Vegetariana</h2>
+           <h3>Medallón de lenteja, berenjena en escabeche</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+  </div>
+
+   <div class="row">
+      <div class="col-8">
+           <h2>Especial</h2>
+           <h3>Tomates secos, provolone, rúcula y pimientos asados</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+  </div>
+
+<div class="aire"></div>
+
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Perritos salchichas alemanas (Panchos)</h1> 
+         </div>
+</div> 
+
+  <div class="row">
+      <div class="col-8">
+           <h2>Italiano: Zuquini, berenjena, tomate confitado, queso</h2>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+   <div class="row">
+      <div class="col-8">
+           <h2>Gratinado: Muzzarella y papas paja</h2>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+
+<div class="aire"></div>
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Ensaladas</h1> 
+         </div>
+</div> 
+
+  <div class="row">
+      <div class="col-8">
+           <h2>Verde Pucará</h2>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+   <div class="row">
+      <div class="col-8">
+           <h2>Búfala</h2>
+           <h3>Rúcula, albahaca mermelada de tomate mozzarella de búfala campana</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+   </div>
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Pagesa</h2>
+           <h3>Patata, pimientos asados, cebolla huevo, atún</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+
+
+<div class="aire"></div>
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Pizza a la parrilla</h1> 
+         </div>
+</div> 
+
+  <div class="row">
+      <div class="col-8">
+           <h2>Margarita</h2>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+   <div class="row">
+      <div class="col-8">
+           <h2>Jamón y pimientos asados</h2> 
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+   </div>
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Rúcula y serrano</h2> 
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Atún y cebolla caramelizada</h2> 
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+</div>
+
+
+<div class="aire"></div>
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Niños</h1> 
+         </div>
+</div> 
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Escalope de pollo con patatas</h2> 
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+</div>
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Macarrones con bolognesa</h2> 
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+</div>
+
+
+
+
+</div> <!-- fin Container comida (Grid) -->
+
+</section> <!-- fin section comida (Grid) -->
+
+
+
+
+
+<div class="view  text-center" style="background-image: url('img/cerveza.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; height: 500px">
+    <div class="d-flex align-items-center bd-highlight ">
+        <div style="width: 100%;"><img alt="slide image" src="img/logo.png"></div>
     </div>
+</div> 
 
 
 
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="row">
-          <!-- Content -->
 
-          <div class="large-8 columns">
-            <div class="panel radius">
-              <div class="row">
-                <div class="large-6 small-6 columns">
-                  <h4>Header</h4>
-                  <hr>
 
-                  <h5 class="subheader">Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Donec
-                  dignissim nibh fermentum odio ornare sagittis.</h5>
+<section style="background: #323639" id="cervezas">
 
-                  <div class="show-for-small" style="text-align: center">
-                    <a class="small radius button" href="#">Call To Action!</a><br>
-                    <a class="small radius button" href="#">Call To Action!</a>
-                  </div>
-                </div>
+<div class="container"> 
+      <div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1 style="text-align:center;">CERVEZAS</h1>  
+         </div>
+      </div>  
 
-                <div class="large-6 small-6 columns">
-                  <p>Suspendisse ultrices ornare tempor. Aenean eget ultricies libero. Phasellus non ipsum eros. Vivamus
-                  at dignissim massa. Aenean dolor libero, blandit quis interdum et, malesuada nec ligula. Nullam erat
-                  erat, eleifend sed pulvinar ac. Suspendisse ultrices ornare tempor. Aenean eget ultricies libero.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="large-4 columns hide-for-small">
-            <h4>Get In Touch!</h4>
-            <hr>
-            <a href="#">
-            <div class="panel radius callout" style="text-align: center">
-              <strong>Call To Action!</strong>
-            </div></a> <a href="#">
-            <div class="panel radius callout" style="text-align: center">
-              <strong>Call To Action!</strong>
-            </div></a>
-          </div><!-- End Content -->
-        </div>
+<div class="row">
+      <div class="col-8">
+         <h2>PILSEN</h2>
+         <h3>RUBIA-MIEL-SUAVE</h3>
+         <h3>IBU 15 / Alcohol 4,9</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+          <h2>€ 5</h2>
       </div>
-    </div><!-- Footer -->
+      <div class="col-11  separa"></div>
+</div>
 
-    <footer class="row">
-      <div class="large-12 columns">
-        <hr>
-
-        <div class="row">
-          <div class="large-6 columns">
-            <p>© Copyright no one at all. Go to town.</p>
-          </div>
-
-          <div class="large-6 columns">
-            <ul class="inline-list right">
-              <li>
-                <a href="#">Link 1</a>
-              </li>
-
-              <li>
-                <a href="#">Link 2</a>
-              </li>
-
-              <li>
-                <a href="#">Link 3</a>
-              </li>
-
-              <li>
-                <a href="#">Link 4</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+<div class="row">
+      <div class="col-8">
+         <h2>SCOTTISH</h2>
+         <h3>MALTOSA-COBRIZO-LIGERA</h3>
+         <h3>IBU 19 / Alcohol 5,2</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+          <h2>€ 5</h2>
       </div>
+      <div class="col-11  separa"></div>
+</div>
+
+
+<div class="row">
+      <div class="col-8">
+         <h2>TRIPLE A</h2>
+         <h3>AROMÁTICA-CÍTRICA-POCO AMARGA</h3>
+         <h3>IBU 40 / Alcohol 5,2</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+          <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+</div>
+
+
+<div class="row">
+      <div class="col-8">
+         <h2>BOCK</h2>
+         <h3>MALTA TOSTADA-CUERPO-ROJO INTENSO</h3>
+         <h3>IBU 28 / Alcohol 5,7</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+          <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+</div>
+
+
+<div class="row"> 
+      <div class="col-8">
+           <h2>RED IPL</h2>
+           <h3>ÁMBAR OSCURO-LUPULADA-AMARGA</h3> 
+           <h3>IBU 44 / Alcohol 5,8</h3>
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center">
+        <h2>€ 5</h2>
+      </div>
+ </div>
+
+</div> <!-- fin Container cervezas (Grid) -->
+
+</section> <!-- fin section cervezas (Grid) -->
+
+ 
+
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Pucará 2020</p>
     </div>
-    </footer>
+    <!-- /.container -->
+  </footer>
 
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
 
 </body>
+
 </html>
-
-
-
-
