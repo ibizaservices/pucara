@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+   <!-- 
+https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp
+   xs (phones), sm (tablets), md (desktops)
+    <div class="col-xs-12 col-md-7">hola</div>
+
+
+   
+<div class="col-sm-4 text-center">
+     -->
+<!-- .row>.small-6.large-4.columns*3>p>lorem12 -->
+<!-- comand D varias veces para seleccionar una palabra y repetir el cursor -->
+
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+<style>
+
+   .fondo {
+    color: #292c30;
+    background-image: url('img/hamburguesa.jpg';); 
+background-position: left top; 
+background-repeat: no-repeat; 
+background-size: cover; padding: 0px; 
+min-height: 0px;  
+  }
+  .fdo{background: #3d4042;}
+ 
+
+@font-face {
+ font-family: 'Unica One';
+ src: url("img/UnicaOne-Regular.eot") /* EOT file for IE */
+}   
+ 
+@font-face {
+ font-family: 'Unica One';
+ src: url("img/UnicaOne-Regular.ttf") /* TTF file for CSS3 browsers */
+} 
+
+ 
+body {
+    margin: 0;
+    font-family: "unica one",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    font-size: 1.5rem !important;
+    font-weight: 300;
+    line-height: 2 !important; 
+}
+ .h1, h1 {
+    font-family: "Unica One", Arial, Helvetica, sans-serif;
+    color: #fff !important;
+    font-size: 60px !important;
+    font-weight: 400;
+    line-height: 1.07;
+    letter-spacing: 0px;
+    font-style: normal;
+    }
+  h2 {
+    font-family: "Unica One", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.07;
+    letter-spacing: 0px;
+    font-style: normal;
+
+        margin: 0px; 
+    color: rgb(210 209 191);
+  }
+  h3 {
+      font-family:  Arial, Helvetica, sans-serif;
+      color: rgb(174, 137, 93); 
+      font-size: 22px !important;
+    font-weight: 200;
+    line-height: 1.33;
+    letter-spacing: 0px;
+    font-style: normal;
+    display: block;
+     
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+     }
+.bd-highlight{
+        
+        min-height: 500px;
+    }
+.box{
+        padding: 25px;
+        background: #abb1b8;
+    }
+
+ .separa {
+    border-top-width: 1px !important;
+    flex-grow: 2;
+    border: 0 solid #ae895d; 
+    width: 399px;
+    height: 23px; 
+}
+ .aire {
+    height: 35px; 
+}
+
+.bandera {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 80px; /* Set a small width */
+  margin-top: -100px !important;
+}
+
+/* Add a hover effect (blue shadow) */
+.bandera:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  margin-top: -90px !important;
+
+}
+
+</style>
+  <title>Cervecería Pucará</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">PUCARA ARTISANAL BREWERY</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#comida">To eat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#cervezas">Drinks</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+
+  <!-- Imagen de fondo comida -->
+    <div class="view  text-center" style="background-image: url('img/hamburguesa.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; height: 500px">
+          <div class="d-flex align-items-center bd-highlight ">
+             <div style="width: 100%;"><img alt="slide image" src="img/logo.png"></div>
+          </div>
+    </div> 
+ 
+
+
+
+<section style="background: #323639" ID="comida">
+
+<div class="row  "> 
+ <div class="col-xs-6 col-md-6 col-6 text-center" > 
+    <a  href="index.html">
+      <img class="bandera" src="img/espa.gif" alt="Forest">
+    </a>
+ </div>
+ <div class="col-xs-6 col-md-6 col-6 text-center"> 
+      <img class="bandera" style="opacity: 0.4;" src="img/eng.gif" alt="Forest">
+ </div>
+</div> 
+<div class="aire"></div>
+
+<div class="container">  
+
+      <div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Starter</h1>  
+
+         </div>
+      </div> 
+
+
+ <div class="row">
+      <div class="col-8">
+           
+           <h2>Lamb skewer</h2>
+           <h3>Mattress of arugula and creole sauce with rosemary</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Spinach and walnut fritters</h2>
+           <h3>With saffron aioli sauce</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+<div class="row">
+      <div class="col-8">
+           <h2>Chicken skewer</h2>
+           <h3>With tomato, onion, bacon and grilled pepper</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+<div class="row">
+      <div class="col-8">
+           <h2>Homemade beef patty</h2>
+           <h3>With a spicy dip</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+<div class="row">
+      <div class="col-8">
+           <h2>Grid octopus</h2>
+           <h3>With potatoes</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+<div class="row">
+      <div class="col-8">
+           <h2>Mini Pizza Grill</h2>
+           <h3>Margarita, serrano with arugula</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+
+<div class="aire"></div>
+
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Servings</h1> 
+         </div>
+</div> 
+
+ <div class="row">
+      <div class="col-8">
+           
+           <h2>Chips</h2> 
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+<div class="row">
+      <div class="col-8">
+           
+           <h2>PUCARA potatoes</h2>
+           <h3>Sauce 4 cheeses, tender onion and bacon</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+ <div class="row">
+      <div class="col-8">
+           
+           <h2>Papas pulled pork</h2>
+           <h3>Fries with pulled pork cooked with beer</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+<div class="row">
+      <div class="col-8">
+           
+           <h2>Meat nachos</h2>
+           <h3>Beef enchilada, guacamole, pico de gallo sour cream, cheddar, mozzarella, coriander</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+<div class="row">
+      <div class="col-8">
+           
+           <h2>Cereal battered chicken strips</h2>
+           <h3>Marinated chicken battered in cereals and dip aioli</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+
+
+<div class="aire"></div>
+
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Sandwiches</h1> 
+         </div>
+</div> 
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Bondiola (Pita bread)</h2>
+           <h3>Roasted vegetables and homemade curry</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Beer vacuum (Pan llonguet)</h2>
+           <h3>(long cooking) chimi, arugula, tomato confit and aioli</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+
+
+<div class="aire"></div>
+
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Main dish</h1> 
+         </div>
+</div> 
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Bondiola braseada</h2>
+           <h3>Pork medallion, wedge potatoes and creole sauce</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Sausages</h2>
+           <h3>With Sauerkraut and German salad</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+  <div class="row">
+      <div class="col-8">
+           <h2>Sweetbread</h2>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+
+<div class="aire"></div>
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>burgers</h1> 
+         </div>
+</div> 
+
+  <div class="row">
+      <div class="col-8">
+           <h2>Classical</h2>
+           <h3>Green, tomato, caramelized onion and cheddar</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+  <div class="row">
+      <div class="col-8">
+           <h2>Vegetarian</h2>
+           <h3>Lentil medallion, pickled aubergine</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+  </div>
+
+   <div class="row">
+      <div class="col-8">
+           <h2>Special</h2>
+           <h3>Dried tomatoes, provolone, arugula and roasted peppers</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+  </div>
+
+<div class="aire"></div>
+
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>German sausage dogs (Panchos)</h1> 
+         </div>
+</div> 
+
+  <div class="row">
+      <div class="col-8">
+           <h2>Italian: Zuquini, aubergine, tomato confit, cheese</h2>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+   <div class="row">
+      <div class="col-8">
+           <h2>Gratin: Mozzarella and straw potatoes</h2>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+
+<div class="aire"></div>
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Salads</h1> 
+         </div>
+</div> 
+
+  <div class="row">
+      <div class="col-8">
+           <h2>Pucará Green</h2>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+   <div class="row">
+      <div class="col-8">
+           <h2>Búfala</h2>
+           <h3>Arugula, basil, tomato mozzarella buffalo bell jam</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+   </div>
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Pagesa</h2>
+           <h3>Potato, roasted peppers, onion, egg, tuna</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+
+
+<div class="aire"></div>
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Grilled pizza</h1> 
+         </div>
+</div> 
+
+  <div class="row">
+      <div class="col-8">
+           <h2>Marguerite</h2>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+   <div class="row">
+      <div class="col-8">
+           <h2>Roasted ham and peppers</h2> 
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+   </div>
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Arugula and serrano</h2> 
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Tuna and caramelized onion</h2> 
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+</div>
+
+
+<div class="aire"></div>
+
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Children</h1> 
+         </div>
+</div> 
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Chicken escalope with potatoes</h2> 
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+</div>
+
+ <div class="row">
+      <div class="col-8">
+           <h2>Macaroni with bolognese</h2> 
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+</div>
+
+
+
+
+</div> <!-- fin Container comida (Grid) -->
+
+</section> <!-- fin section comida (Grid) -->
+
+
+
+
+
+<div class="view  text-center" style="background-image: url('img/cerveza.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; height: 500px">
+    <div class="d-flex align-items-center bd-highlight ">
+        <div style="width: 100%;"><img alt="slide image" src="img/logo.png"></div>
+    </div>
+</div> 
+
+
+
+
+
+<section style="background: #323639" ID="cervezas">
+
+<div class="container"> 
+      <div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1 style="text-align:center;">BEERS</h1>  
+         </div>
+      </div>  
+
+<div class="row">
+      <div class="col-8">
+         <h2>PILSEN</h2>
+         <h3>BLONDE-HONEY-SOFT</h3>
+         <h3>IBU 15 / Alcohol 4,9</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+          <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+</div>
+
+<div class="row">
+      <div class="col-8">
+         <h2>SCOTTISH</h2>
+         <h3>MALTOSA-COPPER-LIGHT</h3>
+         <h3>IBU 19 / Alcohol 5,2</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+          <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+</div>
+
+
+<div class="row">
+      <div class="col-8">
+         <h2>TRIPLE A</h2>
+         <h3>AROMATIC-CITRUS-LITTLE BITTER</h3>
+         <h3>IBU 40 / Alcohol 5,2</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+          <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+</div>
+
+
+<div class="row">
+      <div class="col-8">
+         <h2>BOCK</h2>
+         <h3>MALTA ROASTED-BODY-INTENSE RED</h3>
+         <h3>IBU 28 / Alcohol 5,7</h3>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+          <h2>€ 5</h2>
+      </div>
+      <div class="col-11  separa"></div>
+</div>
+
+
+<div class="row"> 
+      <div class="col-8" >
+           <h2>RED IPL</h2>
+           <h3>DARK AMBER-HOPPED-BITTER</h3> 
+           <h3>IBU 44 / Alcohol 5,8</h3>
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center" >
+        <h2>€ 5</h2>
+      </div>
+ </div>
+
+</div> <!-- fin Container cervezas (Grid) -->
+
+</section> <!-- fin section cervezas (Grid) -->
+
+ 
+
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Pucará 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
