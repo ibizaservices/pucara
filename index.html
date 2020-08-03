@@ -169,7 +169,7 @@ body {
  </div>
  <div class="col-xs-6 col-md-6 col-6 text-center"> 
     <a href="pucara_en.html">
-      <img class="bandera" src="img/eng.gif" alt="Forest">
+      <img class="bandera"  data-toggle="tooltip" data-placement="top" title="Tooltip on top" src="img/eng.gif" alt="Forest">
     </a>
  </div>
 </div> 
@@ -179,7 +179,7 @@ body {
 
       <div class="row"> 
         <div class="col-xs-12 col-md-12"> 
-           <h1>Para Picar </h1>  
+           <h1 >Para Picar </h1>  
 
          </div>
       </div> 
@@ -190,6 +190,8 @@ body {
            
            <h2>Brocheta de Cordero</h2>
            <h3>Colchón de rúcula y salsa criolla con romero</h3>
+           <img class=""  data-toggle="tooltip" data-placement="top" title="Contiene pescado" src="img/ico_pescado.png" alt="">
+           <img class=""  data-toggle="tooltip" data-placement="top" title="Contiene gluten" src="img/ico_trigo.png" alt="">
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
            <h2>€ 5</h2>
@@ -201,6 +203,7 @@ body {
       <div class="col-8">
            <h2>Buñuelos de espinaca y nuez</h2>
            <h3>Con salsa de alioli de azafrán</h3>
+           <img class=""  data-toggle="tooltip" data-placement="top" title="Contiene frutos secos" src="img/ico_frutos_secos.png" alt=""> 
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
            <h2>€ 5</h2>
@@ -704,6 +707,13 @@ body {
 
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
+
+<!-- Inicio el tooltip -->
+  <script>
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+  </script>
 
 </body>
 
