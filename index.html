@@ -79,6 +79,36 @@ body {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
      }
+.precio {
+    font-family: "Unica One", Arial, Helvetica, sans-serif;
+    font-size:22px;
+    font-weight: 300;
+    line-height: 1.07;
+    letter-spacing: 0px;
+    font-style: normal;
+    margin: 0px; 
+    color: rgb(210 209 191);
+  } 
+  .precio_cerveza {
+    font-family: "Unica One", Arial, Helvetica, sans-serif;
+    font-size:17px;
+    font-weight: 300;
+    line-height: 1.07;
+    letter-spacing: 0px;
+    font-style: normal;
+    margin: 0px; 
+    color: rgb(210 209 191);
+  } 
+  .precio_bebida {
+    font-family: "Unica One", Arial, Helvetica, sans-serif;
+    font-size:25px;
+    font-weight: 300;
+    line-height: 1.07;
+    letter-spacing: 0px;
+    font-style: normal;
+    margin: 0px; 
+    color: rgb(210 209 191);
+  } 
 .bd-highlight{
         
         min-height: 500px;
@@ -165,11 +195,11 @@ body {
 
 <div class="row  "> 
  <div class="col-xs-6 col-md-6 col-6 text-center"> 
-      <img class="bandera" style="opacity: 0.4;" src="img/espa.gif" alt="Forest">
+      <img class="bandera" style="opacity: 0.4;" src="img/espa.gif" alt="Esp">
  </div>
  <div class="col-xs-6 col-md-6 col-6 text-center"> 
     <a href="pucara_en.html">
-      <img class="bandera"  data-toggle="tooltip" data-placement="top" title="Tooltip on top" src="img/eng.gif" alt="Forest">
+      <img class="bandera"  src="img/eng.gif" alt="Eng">
     </a>
  </div>
 </div> 
@@ -188,25 +218,25 @@ body {
  <div class="row">
       <div class="col-8">
            
-           <h2>Brocheta de Cordero</h2>
-           <h3>Colchón de rúcula y salsa criolla con romero</h3>
+           <h2>Brocheta de Cordero 200grs.</h2>
+           <h3>Salsa criolla con romero y patatas</h3>
            <img class=""  data-toggle="tooltip" data-placement="top" title="Contiene pescado" src="img/ico_pescado.png" alt="">
            <img class=""  data-toggle="tooltip" data-placement="top" title="Contiene gluten" src="img/ico_trigo.png" alt="">
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">9,5€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
 
  <div class="row">
       <div class="col-8">
-           <h2>Buñuelos de espinaca y nuez</h2>
+           <h2>Buñuelos de espinaca y nuez (5 unidades)</h2>
            <h3>Con salsa de alioli de azafrán</h3>
            <img class=""  data-toggle="tooltip" data-placement="top" title="Contiene frutos secos" src="img/ico_frutos_secos.png" alt=""> 
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5,50€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -217,29 +247,29 @@ body {
            <h3>Con tomate, cebolla, bacon y pimiento al grill</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">8,50€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
 
 <div class="row">
       <div class="col-8">
-           <h2>Empanadita casera de ternera</h2>
+           <h2>Empanadita casera de ternera (4 unidades)</h2>
            <h3>Con un dip picante</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5,50€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
 
 <div class="row">
       <div class="col-8">
-           <h2>Pulpo grille</h2>
+           <h2>Pulpo grille (100 grs.)</h2>
            <h3>Con patatas</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">12€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -250,10 +280,22 @@ body {
            <h3>Margarita, serrano con rúcula</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
+
+
+<div class="row">
+      <div class="col-8">
+           <h2>Jamón Iberico con queso curado en aceite</h2> 
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+          <div class="precio">5€ </div>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
 
 
 <div class="aire"></div>
@@ -271,7 +313,7 @@ body {
            <h2>Patatas fritas</h2> 
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+          <div class="precio">5€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -283,7 +325,7 @@ body {
            <h3>Salsa 4 quesos cebolla tierna y bacon</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+          <div class="precio">5€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -295,7 +337,7 @@ body {
            <h3>Fritas con desmenuzado de cerdo cocido con cerveza</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -307,7 +349,7 @@ body {
            <h3>Enchilada de ternera, guacamole, pico de gallo crema ácida, cheddar, muzzarella, cilantro</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -319,7 +361,7 @@ body {
            <h3>Pollo marinado rebozado en cereales y dip alioli</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -341,18 +383,18 @@ body {
            <h3>Verduras asadas y curry casero</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+          <div class="precio">8,50€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
 
  <div class="row">
       <div class="col-8">
-           <h2>Vacío cervecero (Pan llonguet)</h2>
-           <h3>(larga cocción) chimi, rúcula, tomate confitado y alioli</h3>
+           <h2>Vacío cervecero</h2>
+           <h3>(Braseado con cerveza) chimi, rúcula, tomate confitado y alioli</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+          <div class="precio">5€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -374,7 +416,7 @@ body {
            <h3>Medallón de cerdo, papas cuña y salsa criolla</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -385,17 +427,18 @@ body {
            <h3>Con Chucrut y ensalada Alemana</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
 
   <div class="row">
       <div class="col-8">
-           <h2>Mollejas</h2>
+           <h2>Wok de mollejas (200 grs.)</h2>
+           <h3>Al Verdeo , patatas gajo y un toque de Scottish</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -412,10 +455,10 @@ body {
   <div class="row">
       <div class="col-8">
            <h2>Clásica</h2>
-           <h3>Verde, tomate, cebolla caramelizada y cheddar</h3>
+           <h3>Rúcula, tomate, cebolla caramelizada y cheddar</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">9€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -423,10 +466,10 @@ body {
   <div class="row">
       <div class="col-8">
            <h2>Vegetariana</h2>
-           <h3>Medallón de lenteja, berenjena en escabeche</h3>
+           <h3>Hamburguesa de guisante, rúcula, cherry confitado berenjena en escabeche </h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+          <div class="precio">10€ </div>
       </div>
       <div class="col-11  separa"></div>
   </div>
@@ -437,7 +480,7 @@ body {
            <h3>Tomates secos, provolone, rúcula y pimientos asados</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">10,50€ </div>
       </div>
       <div class="col-11  separa"></div>
   </div>
@@ -456,17 +499,27 @@ body {
            <h2>Italiano: Zuquini, berenjena, tomate confitado, queso</h2>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€ </div>
       </div>
       <div class="col-11  separa"></div>
  </div>
 
-   <div class="row">
+<div class="row">
+      <div class="col-8">
+           <h2>México: guacamole, pico de gallo, nachos, mayonesa de chipotle</h2>
+      </div>   
+      <div class="col-3 text-center justify-content-center align-self-center">
+           <div class="precio">5€</div>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+ <div class="row">
       <div class="col-8">
            <h2>Gratinado: Muzzarella y papas paja</h2>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€</div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -485,7 +538,7 @@ body {
            <h2>Verde Pucará</h2>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€</div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -493,10 +546,10 @@ body {
    <div class="row">
       <div class="col-8">
            <h2>Búfala</h2>
-           <h3>Rúcula, albahaca mermelada de tomate mozzarella de búfala campana</h3>
+           <h3>Rúcula, albahaca, tomate confitado, mozzarella de búfala campana</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€</div>
       </div>
       <div class="col-11  separa"></div>
    </div>
@@ -507,7 +560,7 @@ body {
            <h3>Patata, pimientos asados, cebolla huevo, atún</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€</div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -527,7 +580,7 @@ body {
            <h2>Margarita</h2>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€</div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -537,7 +590,7 @@ body {
            <h2>Jamón y pimientos asados</h2> 
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€</div>
       </div>
       <div class="col-11  separa"></div>
    </div>
@@ -547,7 +600,7 @@ body {
            <h2>Rúcula y serrano</h2> 
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€</div>
       </div>
       <div class="col-11  separa"></div>
  </div>
@@ -557,7 +610,7 @@ body {
            <h2>Atún y cebolla caramelizada</h2> 
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€</div>
       </div>
       <div class="col-11  separa"></div>
 </div>
@@ -573,10 +626,10 @@ body {
 
  <div class="row">
       <div class="col-8">
-           <h2>Escalope de pollo con patatas</h2> 
+           <h2>Tiras de pollo con patatas</h2> 
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€</div>
       </div>
       <div class="col-11  separa"></div>
 </div>
@@ -586,13 +639,26 @@ body {
            <h2>Macarrones con bolognesa</h2> 
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-           <h2>€ 5</h2>
+           <div class="precio">5€</div>
       </div>
       <div class="col-11  separa"></div>
 </div>
 
+<div class="aire"></div>
 
+<div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1>Postres</h1> 
+         </div>
+</div> 
 
+ <div class="row">
+      <div class="col-8">
+           <h2>Consultar sugerencia del día</h2> 
+      </div>   
+     
+      <div class="col-11  separa"></div>
+</div>
 
 </div> <!-- fin Container comida (Grid) -->
 
@@ -628,7 +694,7 @@ body {
          <h3>IBU 15 / Alcohol 4,9</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-          <h2>€ 5</h2>
+          <div class="precio_cerveza">CAÑA 2,50€ <br>PINTA 4,50€ </div>
       </div>
       <div class="col-11  separa"></div>
 </div>
@@ -640,7 +706,7 @@ body {
          <h3>IBU 19 / Alcohol 5,2</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-          <h2>€ 5</h2>
+          <div class="precio_cerveza">CAÑA 2,50€ <br>PINTA 4,50€ </div>
       </div>
       <div class="col-11  separa"></div>
 </div>
@@ -653,7 +719,7 @@ body {
          <h3>IBU 40 / Alcohol 5,2</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-          <h2>€ 5</h2>
+          <div class="precio_cerveza">CAÑA 3€ <br>PINTA 5€ </div>
       </div>
       <div class="col-11  separa"></div>
 </div>
@@ -666,7 +732,7 @@ body {
          <h3>IBU 28 / Alcohol 5,7</h3>
       </div>   
       <div class="col-3 text-center justify-content-center align-self-center">
-          <h2>€ 5</h2>
+         <div class="precio_cerveza">CAÑA 2,50€ <br>PINTA 4,50€ </div>
       </div>
       <div class="col-11  separa"></div>
 </div>
@@ -679,7 +745,44 @@ body {
            <h3>IBU 44 / Alcohol 5,8</h3>
       </div>
       <div class="col-3 text-center justify-content-center align-self-center">
-        <h2>€ 5</h2>
+        <div class="precio_cerveza">CAÑA 3€ <br>PINTA 5€ </div>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+
+<div class="row"> 
+      <div class="col-8">
+           <h2>APA</h2>
+           <h3></h3> 
+           <h3>IBU  0 / Alcohol 0</h3>
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center">
+        <div class="precio_cerveza">CAÑA 2,50€ <br>PINTA 4,50€ </div>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+ <div class="row"> 
+      <div class="col-8">
+           <h2>IPA</h2>
+           <h3></h3> 
+           <h3>IBU  0 / Alcohol 0</h3>
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center">
+        <div class="precio_cerveza">CAÑA 2,50€ <br>PINTA 4,50€ </div>
+      </div>
+      <div class="col-11  separa"></div>
+ </div>
+
+ <div class="row"> 
+      <div class="col-8">
+           <h2>INVITADA</h2>
+           <h3></h3> 
+           <h3>IBU  0 / Alcohol 0</h3>
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center">
+        <div class="precio_cerveza">CAÑA 2,50€ <br>PINTA 4,50€ </div>
       </div>
  </div>
 
@@ -687,7 +790,118 @@ body {
 
 </section> <!-- fin section cervezas (Grid) -->
 
- 
+
+<section style="background: #323639" id="combinados">
+
+<div class="container"> 
+      <div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1 style="text-align:center;">OTRAS BEBIDAS</h1>  
+         </div>
+      </div>  
+
+ <div class="row"> 
+      <div class="col-8">
+           <h2>COMBINADOS</h2>
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center">
+        <div class="precio_bebida">7€ <br> 9€ </div>
+      </div>
+ </div>
+
+
+
+
+</div> <!-- fin Container combinados (Grid) -->
+
+</section> <!-- fin section combinados (Grid) -->
+
+<section style="background: #323639" id="sin_alcohol">
+
+<div class="container"> 
+      <div class="row"> 
+        <div class="col-xs-12 col-md-12"> 
+           <h1 style="text-align:center;">SIN ALCOHOL</h1>  
+         </div>
+      </div>  
+
+
+ <div class="row"> 
+      <div class="col-8">
+           <h2>COCA COLA</h2> 
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center">
+        <div class="precio_bebida">2€ </div>
+      </div>
+ </div>
+
+<div class="row"> 
+      <div class="col-8">
+           <h2>COCA COLA ZERO</h2> 
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center">
+        <div class="precio_bebida">2€ </div>
+      </div>
+ </div>
+ <div class="row"> 
+      <div class="col-8">
+           <h2>FANTA NARANJA</h2> 
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center">
+        <div class="precio_bebida">2€ </div>
+      </div>
+ </div>
+ <div class="row"> 
+      <div class="col-8">
+           <h2>FANTA LIMÓN</h2> 
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center">
+        <div class="precio_bebida">2€ </div>
+      </div>
+ </div>
+ <div class="row"> 
+      <div class="col-8">
+           <h2>AQUARIUS NARANJA</h2> 
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center">
+        <div class="precio_bebida">2€ </div>
+      </div>
+ </div>
+ <div class="row"> 
+      <div class="col-8">
+           <h2>AQUARIUS LIMÓN</h2> 
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center">
+        <div class="precio_bebida">2€ </div>
+      </div>
+ </div>
+ <div class="row"> 
+      <div class="col-8">
+           <h2>ZUMO</h2> 
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center">
+        <div class="precio_bebida">2€ </div>
+      </div>
+ </div>
+ <div class="row"> 
+      <div class="col-8">
+           <h2>AGUA SIN GAS</h2> 
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center">
+        <div class="precio_bebida">2€ </div>
+      </div>
+ </div>
+ <div class="row"> 
+      <div class="col-8">
+           <h2>AGUA CON GAS</h2> 
+      </div>
+      <div class="col-3 text-center justify-content-center align-self-center">
+        <div class="precio_bebida">2€ </div>
+      </div>
+  </div>
+</div> <!-- fin Container sin_alcohol (Grid) -->
+
+</section> <!-- fin section sin_alcohol (Grid) --> 
 
 
   <!-- Footer -->
